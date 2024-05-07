@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+    <title>Gaming Template</title>
+    <script>
+      function toggleMenu() {
+        document.getElementById("menuLinks").classList.toggle("hidden");
+        document.getElementById("menuLinks").classList.toggle("flex");
+      }
+    </script>
+  </head>
+  <body class="relative w-full">
+    <section
+      class="bg-pros md:rounded-b-[10rem] rounded-b-[6rem] md:px-20 px-10 pt-10 text-white pb-60 relative w-full"
+      style="background-image: url(/images/banner1.jpeg)"
+    >
+      <div class="flex justify-between items-center md:flex-nowrap flex-wrap">
+        <img src="/images/logo.png" alt="Logo" />
+        <div class="font-bold md:hidden" onclick="toggleMenu()">Menu</div>
+        <div
+          class="text-[15px] md:flex md:flex-row flex-col hidden md:gap-10 gap-4 md:items-center md:mt-0 mt-4 font-light md:w-auto w-full"
+          id="menuLinks"
+        >
+          <a href="/" class="rounded-full px-5 py-2 hover:ancor active w-fit"
+            >Home</a
+          >
+          <a href="" class="rounded-full px-5 py-2 hover:ancor w-fit"
+            >Our Shop</a
+          >
+          <a href="" class="rounded-full px-5 py-2 hover:ancor w-fit"
+            >Product Details</a
+          >
+          <a href="" class="rounded-full px-5 py-2 hover:ancor w-fit"
+            >Contact Us</a
+          >
+          <a href="" class="bg-red-400 font-medium rounded-full px-6 py-2 w-fit"
+            >SIGN IN</a
+          >
+        </div>
+      </div>
+      <div class="mt-32 flex justify-between md:flex-nowrap flex-wrap">
+        <div class="md:w-[50%] w-full">
+          <div class="uppercase text-xl">Welcome to lugx</div>
+          <div class="uppercase text-5xl font-bold mt-7 mb-14">
+            best gaming site ever!
+          </div>
+          <p class="text-sm leading-loose">
+            LUGX Gaming is free Boostrap 5 HTML CSS website template for your
+            gaming websites. You can download and use this layout for commercial
+            purposes. Please tell your friends about TemplateMo.
+          </p>
+          <div class="w-[80%] mt-16 relative">
+            <input
+              type="text"
+              placeholder="Type Something"
+              class="bg-white text-sm rounded-full pl-6 py-4 pr-[10rem] text-black focus:outline-none w-full"
+            />
+            <button class="absolute right-0 top-0 red-btn h-full">
+              SEARCH NOW
+            </button>
+          </div>
+        </div>
+        <div
+          class="bg-pros rounded-3xl md:w-[30%] w-full relative flex justify-end md:mt-0 mt-16 md:h-auto h-[70vh]"
+          style="
+            background-image: url('https://assetsio.gnwcdn.com/valorant-review-exacting-infuriating-sublime-1593424502084.jpg?width=1200&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp');
+          "
+        >
+          <div
+            class="bg-blue-600 font-bold text-xl rounded-3xl px-3 py-1.5 w-fit h-fit m-4"
+          >
+            $22
+          </div>
+          <div
+            class="bg-red-400 rounded-full font-bold text-2xl px-2 py-6 absolute -bottom-6 -left-6"
+          >
+            -40%
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex md:flex-nowrap flex-wrap justify-between absolute md:-bottom-[10%] -bottom-[20%] md:w-[88%] w-[80%] gap-6"
+      >
+        <div
+          class="md:w-1/4 w-[45%] flex flex-col items-center justify-center md:px-14 px-6 py-7 bg-white shadow-lg rounded-3xl"
+        >
+          <div
+            class="bg-blue-600 rounded-full p-5 flex justify-center items-center"
+          >
+            <img src="/images/download.png" class="w-10" />
+          </div>
+          <div class="font-bold text-lg mt-6 text-black text-center">
+            FREE STORAGE
+          </div>
+        </div>
+        <div
+          class="md:w-1/4 w-[45%] flex flex-col items-center justify-center md:px-14 px-6 py-7 bg-white shadow-lg rounded-3xl"
+        >
+          <div
+            class="bg-blue-600 rounded-full p-5 flex justify-center items-center"
+          >
+            <img src="/images/user.png" class="w-10" />
+          </div>
+          <div class="font-bold text-lg mt-6 text-black text-center">
+            USER MODE
+          </div>
+        </div>
+        <div
+          class="md:w-1/4 w-[45%] flex flex-col items-center justify-center md:px-14 px-6 py-7 bg-white shadow-lg rounded-3xl"
+        >
+          <div
+            class="bg-blue-600 rounded-full p-5 flex justify-center items-center"
+          >
+            <img src="/images/play.png" class="w-10" />
+          </div>
+          <div class="font-bold text-lg mt-6 text-black text-center">
+            REPLY READY
+          </div>
+        </div>
+        <div
+          class="md:w-1/4 w-[45%] flex flex-col items-center justify-center md:px-14 px-6 py-7 bg-white shadow-lg rounded-3xl"
+        >
+          <div
+            class="bg-blue-600 rounded-full p-5 flex justify-center items-center"
+          >
+            <img src="/images/deck.png" class="w-10" />
+          </div>
+          <div class="font-bold text-lg mt-6 text-black text-center">
+            EASY LAYOUT
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="md:mt-52 mt-[28rem] md:px-20 px-10 pb-10">
+      <div class="text-red-400 uppercase font-bold">Trending</div>
+      <div class="flex w-full justify-between">
+        <h1 class="font-bold text-4xl mt-4">Trending Games</h1>
+        <button
+          class="bg-red-400 font-semibold md:rounded-full rounded-xl md:px-6 px-4 md:py-3 py-2 text-white text-sm"
+        >
+          VIEW ALL
+        </button>
+      </div>
+      <div class="flex md:flex-nowrap flex-wrap gap-6 mt-16">
+        <div class="rounded-3xl md:w-1/4 w-full bg-gray-100 relative">
+          <div
+            class="rounded-3xl h-[12rem] w-full relative flex justify-end bg-pros"
+            style="
+              background-image: url('https://cdn.vox-cdn.com/thumbor/Q7HWdC2wCxexF3whUuX5wB9DegY=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19874924/VALORANT_Jett_Red_crop.jpg');
+            "
+          >
+            <div
+              class="bg-blue-600 font-bold text-sm rounded-xl px-4 py-2 w-fit h-fit m-4 text-white"
+            >
+              <div class="line-through font-medium text-right">$28</div>
+              <div class="text-base mt-0.5 text-right">$20</div>
+            </div>
+          </div>
+          <div
+            class="pt-7 pb-5 px-5 bg-transparent flex justify-between items-center"
+          >
+            <div>
+              <div class="text-gray-500 text-sm">Action</div>
+              <div class="font-semibold mt-1">Assasin Creed</div>
+            </div>
+            <div class="bg-red-400 rounded-full p-5"></div>
+          </div>
+        </div>
+        <div class="rounded-3xl md:w-1/4 w-full bg-gray-100 relative">
+          <div
+            class="rounded-3xl h-[12rem] w-full relative flex justify-end bg-pros"
+            style="
+              background-image: url('https://www.esportmaniacos.com/wp-content/uploads/2021/11/Chamber1-780x470.jpg');
+            "
+          >
+            <div
+              class="bg-blue-600 font-bold text-sm rounded-xl px-4 py-2 w-fit h-fit m-4 text-white"
+            >
+              <div class="line-through font-medium text-right">$28</div>
+              <div class="text-base mt-0.5 text-right">$20</div>
+            </div>
+          </div>
+          <div
+            class="pt-7 pb-5 px-5 bg-transparent flex justify-between items-center"
+          >
+            <div>
+              <div class="text-gray-500 text-sm">Action</div>
+              <div class="font-semibold mt-1">Assasin Creed</div>
+            </div>
+            <div class="bg-red-400 rounded-full p-5"></div>
+          </div>
+        </div>
+        <div class="rounded-3xl md:w-1/4 w-full bg-gray-100 relative">
+          <div
+            class="rounded-3xl h-[12rem] w-full relative flex justify-end bg-pros"
+            style="
+              background-image: url('https://images.prismic.io/play-vs/fee8305e-f484-4eff-bd85-55a7e07e03d5_ValorantHeronobanner.jpg?auto=compress,format');
+            "
+          >
+            <div
+              class="bg-blue-600 font-bold text-sm rounded-xl px-4 py-2 w-fit h-fit m-4 text-white"
+            >
+              <div class="line-through font-medium text-right">$28</div>
+              <div class="text-base mt-0.5 text-right">$20</div>
+            </div>
+          </div>
+          <div
+            class="pt-7 pb-5 px-5 bg-transparent flex justify-between items-center"
+          >
+            <div>
+              <div class="text-gray-500 text-sm">Action</div>
+              <div class="font-semibold mt-1">Assasin Creed</div>
+            </div>
+            <div class="bg-red-400 rounded-full p-5"></div>
+          </div>
+        </div>
+        <div class="rounded-3xl md:w-1/4 w-full bg-gray-100 relative">
+          <div
+            class="rounded-3xl h-[12rem] w-full relative flex justify-end bg-pros"
+            style="
+              background-image: url('https://foto.sondakika.com/haber/2022/08/24/valorant-5-bolum-2-kisim-daki-yenilikler-neler-15206400_8351_amp.jpg');
+            "
+          >
+            <div
+              class="bg-blue-600 font-bold text-sm rounded-xl px-4 py-2 w-fit h-fit m-4 text-white"
+            >
+              <div class="line-through font-medium text-right">$28</div>
+              <div class="text-base mt-0.5 text-right">$20</div>
+            </div>
+          </div>
+          <div
+            class="pt-7 pb-5 px-5 bg-transparent flex justify-between items-center"
+          >
+            <div>
+              <div class="text-gray-500 text-sm">Action</div>
+              <div class="font-semibold mt-1">Assasin Creed</div>
+            </div>
+            <div class="bg-red-400 rounded-full p-5"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="mt-20 md:px-20 px-10 py-28 bg-gray-100 md:rounded-[10rem] rounded-[6rem]"
+    >
+      <div class="text-red-400 uppercase font-bold">top games</div>
+      <div class="flex w-full justify-between">
+        <h1 class="font-bold text-4xl mt-4">Most Played</h1>
+        <button
+          class="bg-red-400 font-semibold rounded-full px-6 py-3 text-white text-sm"
+        >
+          VIEW ALL
+        </button>
+      </div>
+      <div class="flex md:flex-nowrap flex-wrap gap-6 mt-16">
+        <div
+          class="rounded-3xl md:w-1/6 w-[45%] md:mb-0 mb-6 bg-white relative"
+        >
+          <div
+            class="rounded-3xl h-[12rem] w-full relative flex justify-end bg-pros"
+            style="
+              background-image: url('https://cdn.vox-cdn.com/thumbor/Q7HWdC2wCxexF3whUuX5wB9DegY=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19874924/VALORANT_Jett_Red_crop.jpg');
+            "
+          ></div>
+          <div
+            class="p-5 pb-10 bg-transparent flex flex-col items-center justify-center relative"
+          >
+            <div class="text-gray-500 text-sm">Action</div>
+            <div class="font-semibold mt-1">Assasin Creed</div>
+            <button
+              class="bg-red-400 px-4 py-3 text-white absolute -bottom-4 h-fit rounded-full flex justify-center items-center text-sm font-semibold"
+            >
+              EXPLORE
+            </button>
+          </div>
+        </div>
+        <div
+          class="rounded-3xl md:w-1/6 w-[45%] md:mb-0 mb-6 bg-white relative"
+        >
+          <div
+            class="rounded-3xl h-[12rem] w-full relative flex justify-end bg-pros"
+            style="
+              background-image: url('https://cdn.vox-cdn.com/thumbor/Q7HWdC2wCxexF3whUuX5wB9DegY=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19874924/VALORANT_Jett_Red_crop.jpg');
+            "
+          ></div>
+          <div
+            class="p-5 pb-10 bg-transparent flex flex-col items-center justify-center relative"
+          >
+            <div class="text-gray-500 text-sm">Action</div>
+            <div class="font-semibold mt-1">Assasin Creed</div>
+            <button
+              class="bg-red-400 px-4 py-3 text-white absolute -bottom-4 h-fit rounded-full flex justify-center items-center text-sm font-semibold"
+            >
+              EXPLORE
+            </button>
+          </div>
+        </div>
+        <div
+          class="rounded-3xl md:w-1/6 w-[45%] md:mb-0 mb-6 bg-white relative"
+        >
+          <div
+            class="rounded-3xl h-[12rem] w-full relative flex justify-end bg-pros"
+            style="
+              background-image: url('https://cdn.vox-cdn.com/thumbor/Q7HWdC2wCxexF3whUuX5wB9DegY=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19874924/VALORANT_Jett_Red_crop.jpg');
+            "
+          ></div>
+          <div
+            class="p-5 pb-10 bg-transparent flex flex-col items-center justify-center relative"
+          >
+            <div class="text-gray-500 text-sm">Action</div>
+            <div class="font-semibold mt-1">Assasin Creed</div>
+            <button
+              class="bg-red-400 px-4 py-3 text-white absolute -bottom-4 h-fit rounded-full flex justify-center items-center text-sm font-semibold"
+            >
+              EXPLORE
+            </button>
+          </div>
+        </div>
+        <div
+          class="rounded-3xl md:w-1/6 w-[45%] md:mb-0 mb-6 bg-white relative"
+        >
+          <div
+            class="rounded-3xl h-[12rem] w-full relative flex justify-end bg-pros"
+            style="
+              background-image: url('https://cdn.vox-cdn.com/thumbor/Q7HWdC2wCxexF3whUuX5wB9DegY=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19874924/VALORANT_Jett_Red_crop.jpg');
+            "
+          ></div>
+          <div
+            class="p-5 pb-10 bg-transparent flex flex-col items-center justify-center relative"
+          >
+            <div class="text-gray-500 text-sm">Action</div>
+            <div class="font-semibold mt-1">Assasin Creed</div>
+            <button
+              class="bg-red-400 px-4 py-3 text-white absolute -bottom-4 h-fit rounded-full flex justify-center items-center text-sm font-semibold"
+            >
+              EXPLORE
+            </button>
+          </div>
+        </div>
+        <div
+          class="rounded-3xl md:w-1/6 w-[45%] md:mb-0 mb-6 bg-white relative"
+        >
+          <div
+            class="rounded-3xl h-[12rem] w-full relative flex justify-end bg-pros"
+            style="
+              background-image: url('https://cdn.vox-cdn.com/thumbor/Q7HWdC2wCxexF3whUuX5wB9DegY=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19874924/VALORANT_Jett_Red_crop.jpg');
+            "
+          ></div>
+          <div
+            class="p-5 pb-10 bg-transparent flex flex-col items-center justify-center relative"
+          >
+            <div class="text-gray-500 text-sm">Action</div>
+            <div class="font-semibold mt-1">Assasin Creed</div>
+            <button
+              class="bg-red-400 px-4 py-3 text-white absolute -bottom-4 h-fit rounded-full flex justify-center items-center text-sm font-semibold"
+            >
+              EXPLORE
+            </button>
+          </div>
+        </div>
+        <div
+          class="rounded-3xl md:w-1/6 w-[45%] md:mb-0 mb-6 bg-white relative"
+        >
+          <div
+            class="rounded-3xl h-[12rem] w-full relative flex justify-end bg-pros"
+            style="
+              background-image: url('https://cdn.vox-cdn.com/thumbor/Q7HWdC2wCxexF3whUuX5wB9DegY=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19874924/VALORANT_Jett_Red_crop.jpg');
+            "
+          ></div>
+          <div
+            class="p-5 pb-10 bg-transparent flex flex-col items-center justify-center relative"
+          >
+            <div class="text-gray-500 text-sm">Action</div>
+            <div class="font-semibold mt-1">Assasin Creed</div>
+            <button
+              class="bg-red-400 px-4 py-3 text-white absolute -bottom-4 h-fit rounded-full flex justify-center items-center text-sm font-semibold"
+            >
+              EXPLORE
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-32 md:px-20 px-10 pb-10">
+      <div class="flex flex-col w-full justify-center items-center">
+        <div class="text-red-400 uppercase font-bold">categories</div>
+        <h1 class="font-bold text-4xl mt-4 text-center">Top Categories</h1>
+      </div>
+      <div class="flex md:flex-nowrap flex-wrap gap-6 mt-16 w-full">
+        <div class="rounded-3xl md:w-1/5 w-[45%] bg-blue-600 relative">
+          <div
+            class="w-full text-center text-lg bg-transparent font-bold text-white p-5"
+          >
+            Action
+          </div>
+          <div
+            class="rounded-3xl h-[12rem] w-full relative flex justify-end bg-pros"
+            style="
+              background-image: url('https://www.therisingnews.com/storage/2024/03/Ep8a1_Defiance_Content_Stack_Thumbnail_1200x625_.jpg');
+            "
+          ></div>
+        </div>
+        <div class="rounded-3xl md:w-1/5 w-[45%] bg-blue-600 relative">
+          <div
+            class="w-full text-center text-lg bg-transparent font-bold text-white p-5"
+          >
+            Action
+          </div>
+          <div
+            class="rounded-3xl h-[12rem] w-full relative flex justify-end bg-pros"
+            style="
+              background-image: url('https://www.therisingnews.com/storage/2024/03/Ep8a1_Defiance_Content_Stack_Thumbnail_1200x625_.jpg');
+            "
+          ></div>
+        </div>
+        <div class="rounded-3xl md:w-1/5 w-[45%] bg-blue-600 relative">
+          <div
+            class="w-full text-center text-lg bg-transparent font-bold text-white p-5"
+          >
+            Action
+          </div>
+          <div
+            class="rounded-3xl h-[12rem] w-full relative flex justify-end bg-pros"
+            style="
+              background-image: url('https://www.therisingnews.com/storage/2024/03/Ep8a1_Defiance_Content_Stack_Thumbnail_1200x625_.jpg');
+            "
+          ></div>
+        </div>
+        <div class="rounded-3xl md:w-1/5 w-[45%] bg-blue-600 relative">
+          <div
+            class="w-full text-center text-lg bg-transparent font-bold text-white p-5"
+          >
+            Action
+          </div>
+          <div
+            class="rounded-3xl h-[12rem] w-full relative flex justify-end bg-pros"
+            style="
+              background-image: url('https://www.therisingnews.com/storage/2024/03/Ep8a1_Defiance_Content_Stack_Thumbnail_1200x625_.jpg');
+            "
+          ></div>
+        </div>
+        <div class="rounded-3xl md:w-1/5 w-[45%] bg-blue-600 relative">
+          <div
+            class="w-full text-center text-lg bg-transparent font-bold text-white p-5"
+          >
+            Action
+          </div>
+          <div
+            class="rounded-3xl h-[12rem] w-full relative flex justify-end bg-pros"
+            style="
+              background-image: url('https://www.therisingnews.com/storage/2024/03/Ep8a1_Defiance_Content_Stack_Thumbnail_1200x625_.jpg');
+            "
+          ></div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="relative mt-24 md:mx-20 mx-10 flex justify-center items-center h-[80vh]"
+    >
+      <img
+        src="/images/cta.jpeg"
+        class="md:w-[50%] w-full h-full rounded-3xl md:object-none object-cover"
+      />
+      <div
+        class="flex md:flex-nowrap flex-wrap justify-between items-end absolute md:top-[16%] top-1/2"
+      >
+        <div class="bg-gray-100 rounded-3xl md:p-20 p-16 md:w-[40%] w-full">
+          <div class="text-red-400 uppercase font-bold">our shop</div>
+          <h1 class="font-bold text-4xl mt-4">
+            Go Pre-Order Buy & Get Best
+            <span class="text-blue-600">Prices</span> For You!
+          </h1>
+          <p class="font-semibold text-gray-700 text-[16px] my-12">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+            tempus enim lectus, nec scelerisque nunc finibus nec.
+          </p>
+          <button class="red-btn px-6">SHOP NOW</button>
+        </div>
+        <div
+          class="bg-gray-100 rounded-3xl p-16 md:w-[40%] w-full md:mt-0 mt-10"
+        >
+          <div class="text-red-400 uppercase font-bold">newsletter</div>
+          <h1 class="font-bold text-4xl mt-4 capitalize">
+            Get up to $100 off just buy
+            <span class="text-blue-600">Subscribe</span> newsletter!
+          </h1>
+          <div class="w-[100%] mt-10 relative">
+            <input
+              type="text"
+              placeholder="Your email.."
+              class="bg-white text-sm rounded-full pl-6 py-4 pr-[10rem] text-black focus:outline-none w-full"
+            />
+            <button class="absolute right-0 top-0 red-btn h-full">
+              SUBSCRIBE NOW
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer
+      class="bg-pros w-full text-center md:mt-[45vh] mt-[100vh] pt-10 pb-20 text-white md:rounded-t-[10rem] rounded-t-[5rem] px-10 text-sm"
+      style="background-image: url('/images/footer.jpeg')"
+    >
+      Copyright © 2048 LUGX Gaming Company. All rights reserved. Design:
+      <a href="">TemplateMo</a>
+    </footer>
+  </body>
+</html>

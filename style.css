@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .ancor {
+    @apply bg-blue-50 transition ease-in-out delay-100 bg-opacity-10;
+  }
+  .bg-pros {
+    @apply bg-cover bg-center bg-no-repeat;
+  }
+  .red-btn {
+    @apply bg-red-400 px-4 py-3 text-white h-fit rounded-full flex justify-center items-center text-sm font-semibold;
+  }
+  .active {
+    @apply ancor;
+  }
+}
