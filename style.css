@@ -15,4 +15,10 @@
   .active {
     @apply ancor;
   }
+  .nav_sticky {
+    @apply sticky bg-blue-600;
+  }
+  .nav_absolute {
+    @apply absolute bg-transparent;
+  }
 }
